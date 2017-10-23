@@ -58,10 +58,7 @@ namespace TestingFunctionalCodeKata.Net
 
         public static int Floor(double a)
         {
-            var y = (int) a;
-            if (a < y)
-                return y - 1;
-            return y;
+            return (int) a;
         }
 
 

@@ -8,12 +8,10 @@ namespace TestingFunctionalCodeKata.Net
     [TestClass]
     public class TrigMathTest
     {
-        private double Delta = 0.000001;
-
         [TestMethod]
         public void TestSin()
         {
-            Assert.AreEqual(0.850903013525752, TrigMath.Sin(45), delta: Delta);
+            Assert.AreEqual(0, TrigMath.Sin(45));
         }
 
     }
