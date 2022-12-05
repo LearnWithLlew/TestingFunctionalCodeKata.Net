@@ -1,1 +1,2 @@
 # testingfunctionalcode.net
+[![Build](https://github.com/LearnWithLlew/TestingFunctionalCodeKata.Net/actions/workflows/build.yml/badge.svg)](https://github.com/LearnWithLlew/TestingFunctionalCodeKata.Net/actions/workflows/build.yml)
