@@ -16,7 +16,9 @@ namespace TestingFunctionalCodeKata.Net.Samples
         [TestMethod]
         public void TestVerifyAll()
         {
+            // begin-snippet: verify_all
             Approvals.VerifyAll("sin", new[] { 0.1 }, d => $"sin({d}) = {TrigMath.Sin(d)} ");
+            // end-snippet
         }
     }
 }
