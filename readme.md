@@ -16,3 +16,7 @@ Approvals.VerifyAll("sin", new[] { 0.1 }, d => $"sin({d}) = {TrigMath.Sin(d)} ")
 ```
 <sup><a href='/TestingFunctionalCodeKata.Net/Samples/ApprovalSamples.cs#L19-L21' title='Snippet source file'>snippet source</a> | <a href='#snippet-verify_all' title='Start of snippet'>anchor</a></sup>
 <!-- endSnippet -->
+
+which will produce:
+
+snippet: ApprovalSamples.TestVerifyAll.approved.txt
